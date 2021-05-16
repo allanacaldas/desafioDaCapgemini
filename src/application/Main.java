@@ -37,10 +37,8 @@ public class Main {
 			System.out.println(anuncio);
 			System.out.println();
 		} catch (ParseException e) {
-			e.getMessage(); // TODO Auto-generated catch block
-			e.printStackTrace();
+			e.getMessage(); 
 		} finally {
-			System.out.println(" ----------------------------------------------- ");
 			System.out.println("Fim do Programa");
 			System.out.println(" ----------------------------------------------- ");
 		}
